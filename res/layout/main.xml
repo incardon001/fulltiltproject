@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background = "@drawable/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/helpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:onClick="showButtonLikeWidgets"
+        android:text="@string/show_help_button_label" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:onClick="showSpinners"
+        android:text="@string/show_start_button_label" />
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" 
+    android:background="@drawable/floral">
+	
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="184dp"
+        android:layout_height="166dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="@drawable/targets"
+        android:text=" "
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:text="THE JOUST: Each Knight chooses an aiming point on the opponent’s shield or helm and then chooses a defensive position from the list of possible defensive positions. These results are then compared on the appropriate tables. The results will be applied simultaneously."
+        android:textAppearance="?android:attr/textAppearance" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showButtonLikeWidgets"
+        android:text="Main Menu" />
+
+</LinearLayout>
